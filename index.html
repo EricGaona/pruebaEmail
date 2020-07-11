@@ -14,9 +14,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<!-- This is for the emailJS API -->
 
-	<!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
-	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script> -->
-	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 	<script type="text/javascript">
 		(function() {
             emailjs.init("user_9biuJ2Mx1OdmWNdFS5fjv");            
@@ -199,9 +197,11 @@
 			<div id="imgfondo"><img src="img/img03.jpg" alt="" /></div>
 				<form onsubmit="return sendMail(this);">
 					<input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
-					<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-					<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-					<button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+					<input type="email" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+					<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Message" required></textarea>
+					<input type="submit">Send</input>
+					<div id="success" class="success"></div>
+					<div id="fail" class="fail"></div>
 				</form>
 		</section>
 	</div>

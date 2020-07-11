@@ -255,6 +255,24 @@ textarea:-ms-input-placeholder {
     font-family: 'Open Sans', sans-serif;
 }
 
+#success{
+    font-size: 17px;
+    margin-top: 40px;
+    color: black;
+    background-color: #00b300;
+    padding: 5px;
+    display: none;
+}
+
+#fail{
+    font-size: 17px;
+    margin-top: 40px;
+    color: black;
+    background-color: #ff1a1a;
+    padding: 5px;
+    display: none;
+}
+
 /* XXXXXXXX    FOOTER    XXXXXXXXXXX*/
 footer {
     width: 100%;
