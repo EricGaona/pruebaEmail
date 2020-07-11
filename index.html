@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>MyPortfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- <link rel="icon" href="icon.ico"> -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+	<link href=" https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- This is for the emailJS API -->
+
+	<!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script> -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+            emailjs.init("user_9biuJ2Mx1OdmWNdFS5fjv");            
+        })();
+	</script>
+</head>
+
+<body>
+	<div id="cont">
+		<!-- _______________  HEADER  _________________-->
+		<div id="fondo">
+			<header>
+				<a href="#">MyPortfolio</a>
+				<nav>
+					<ul>
+						<li><a href="#about" class="hvr-sweep-to-bottom">About</a></li>
+						<li><a href="#work" class="hvr-sweep-to-bottom">Work</a></li>
+						<li><a href="#contact" class="hvr-sweep-to-bottom">Contact</a></li>
+						<li><a href="pdf/ericGaonaCV.pdf" target="_blank" class="hvr-sweep-to-bottom">CV</a></li>
+					</ul>
+				</nav>
+				<div class="centrar">
+					<h2>Eric Gaona</h2>
+					<h3>Full-Stack
+						<span>Web Developer</span>
+					</h3>
+				</div>
+			</header>
+		</div>
+		<!-- _______________  ABOUT  _________________-->
+		<section id="about">
+			<h3>about</h3>
+			<div>
+				<img src="img/Eric.jpg" alt="eric" />
+				<p>
+					Thanks for stopping by. My name is Eric. I am a freelance Web
+					Developer from Spain. I have been living in Dublin for a few years
+					now, so I am happy to work with you in both Spanish and English. I
+					can help you with the planning and creation of your new website or
+					even improve your old one.
+				</p>
+				<p>
+					I use a mixture of HTML, CSS, Bootstrap, Javascript, PHP, Python,
+					Flask, Django, MongoDB, MySQL and WordPress.<a href="#contact">
+						Get in touch today</a>
+					and we can start discussing options and
+					ideas for your own digital platform.
+				</p>
+			</div>
+		</section>
+		<!-- _______________  WORK  _________________-->
+		<section id="work" class="sect">
+			<h3>work</h3>
+
+			<div id="centrar">
+				<div class="caja izq">
+					<span>
+                        <a href="https://dolcetto.herokuapp.com/" target="_blank"><img src="img/dolcetto.jpg" alt="Dolcetto" /></a>
+                    </span>
+					<h4>
+						<a href="https://dolcetto.herokuapp.com/" target="_blank">Dolcetto</a>
+					</h4>
+					<p>
+						I created this e-commerce website using the programing language
+						Python and the framework Django for the final project in the
+						course Fullstack Web Developer in Code Institute. I deployed the
+						app in Heroku and the images and static files in the amazon web
+						server.
+					</p>
+				</div>
+
+				<div class="caja der">
+					<span>
+                        <a href="https://cookbookproject.herokuapp.com/" target="_blank"><img src="img/cookBook.jpg" alt="Cookbook" /></a>
+                    </span>
+					<h4>
+						<a href="https://cookbookproject.herokuapp.com/" target="_blank">Cookbook</a>
+					</h4>
+					<p>
+						This website was coded from inception using a mixture of HTML,
+						CSS, Bootstrap, Javascript, Python, the framework Flask, and
+						MongoDB to host the database. On this website, the user can find
+						and share vegan and vegetarian recipes.
+					</p>
+				</div>
+
+				<div class="caja izq marg">
+					<span>
+                        <a href="https://ericgaona.github.io/InteractiveMilestoneProject/" target="_blank"><img src="img/memoryGame.jpg" alt="Memory Game" /></a>
+                    </span>
+					<h4>
+						<a href="https://ericgaona.github.io/InteractiveMilestoneProject/" target="_blank">Memory
+							Game</a>
+					</h4>
+					<p>
+						I built this Memory Game for the Javascript project in the course
+						Fullstack Web Developer in Code Institute. It's fun to play and
+						helps to improve the user's memory. To win you need to match all
+						the pairs before time runs out.
+					</p>
+				</div>
+
+				<div class="caja izq">
+					<span>
+                        <a href="https://travelandculture.ie/" target="_blank"><img src="img/travelandculture.jpg" alt="travelandculture" /></a>
+                    </span>
+					<h4>
+						<a href="https://travelandculture.ie/" target="_blank">travelandculture.ie</a>
+					</h4>
+					<p>
+						I created this website using WordPress for a client who wanted to
+						set up a travel blog. I advised on the best template and layout
+						that would work best for her vision. We collaborated over a number
+						of tweaks until client was delighted with the result.
+					</p>
+				</div>
+
+				<div class="caja der">
+					<span>
+                        <a href="https://orientaldanzadelalma.com/" target="_blank"><img src="img/orientaldanza.jpg" alt="orientalddanzadelalma" /></a>
+                    </span>
+					<h4>
+						<a href="https://orientaldanzadelalma.com/" target="_blank">orientaldanzadelalma.com</a>
+					</h4>
+					<p>
+						I built this website using code languages: HTML, CSS, Javascript,
+						PHP. The client wanted a very specific design so, I tailor-made
+						this website to meet the requirements exactly.
+					</p>
+				</div>
+
+				<div class="caja izq marg">
+					<span>
+                        <a href="https://www.asuakoworking.com/" target="_blank"><img src="img/asuakoworking.jpg" alt="asuakoworking" /></a>
+                    </span>
+					<h4>
+						<a href="https://www.asuakoworking.com/" target="_blank">asuakoworking.com</a>
+					</h4>
+					<p>
+						This website was coded from inception using a mixture of HTML,
+						Bootstrap, CSS, Javascript plus a Google form because the client
+						wanted to collect data. Together with colleagues we use a
+						collaboration software (GitHub) to manage this project.
+					</p>
+				</div>
+
+				<div class="caja der">
+					<span>
+                        <a href="https://mariauranga.com/" target="_blank"><img src="img/mariauranga.jpg" alt="mariauranga" /></a>
+                    </span>
+					<h4>
+						<a href="https://mariauranga.com/" target="_blank">mariauranga.com</a>
+					</h4>
+					<p>
+						This website is a result of a collaboration between myself and
+						colleagues. We created the website in WordPress and also brought
+						in a woocommerce expert for that particular section.
+					</p>
+				</div>
+
+				<div class="caja izq">
+					<span>
+                        <a href="https://www.xn--diseograficobilbao-q0b.com/" target="_blank"><img src="img/bobysuh.jpg" alt="bobysuh" /></a>
+                    </span>
+					<h4>
+						<a href="https://www.xn--diseograficobilbao-q0b.com/"
+							target="_blank">diseñograficobilbao.com</a>
+					</h4>
+					<p>
+						This website is the final product of a team collaboration using
+						WordPress which I worked on during my time in-house at Bobysuh, a
+						company in Bilbao who supplies tailored website to clients.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- _______________  CONTACT  _________________-->
+		<section id="contact">
+			<h3>contact</h3>
+			<div id="imgfondo"><img src="img/img03.jpg" alt="" /></div>
+				<form onsubmit="return sendMail(this);">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
+					<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+					<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+					<button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+				</form>
+		</section>
+	</div>
+	<!-- _______________  FOOTER  _________________-->
+
+	<footer>
+		<ul>
+			<li><a href="https://www.linkedin.com/in/eric-gaona-medina-5a0486143/" target="_blank"
+					title="Linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+			<li><a href="https://github.com/EricGaona" target="_blank"
+					title="Github"><span class="fa fa-github-square" aria-hidden="true"></span></a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=1071394585" target="_blank"
+					title="Facebook"><span class="fa fa-facebook-square" aria-hidden="true"></span></a></li>
+
+			<li><a href="pdf/ericGaonaCV.pdf" target="_blank"
+					title="Download CV"><span class="fa fa-download" aria-hidden="true"></span></a></li>
+		</ul>
+	</footer>
+	<script src="js/sendEmail.js"></script>
+</body>
+
+</html>
